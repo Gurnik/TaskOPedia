@@ -36,7 +36,7 @@ function MainBody() {
   return (
     <div>
       <p>
-        In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
+        In this course, we will learn {whatWeWillLearn} by building TaskOPedia!{" "}
         <br />
         Total Lecture - {lectureCount}
       </p>
@@ -44,6 +44,10 @@ function MainBody() {
         <li>Basic Foudation</li>
         <li>Functional and Class Components</li>
       </ul>
+      <div>
+        Enter Task :{" "}
+        <input maxLength={5} readOnly={false} placeholder="Ben"></input>
+      </div>
     </div>
   );
 }
