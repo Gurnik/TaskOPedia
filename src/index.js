@@ -1,5 +1,6 @@
 //import React from "react";
 import ReactDOM from "react-dom/client";
+import "../src/CSS/style.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<React.StrictMode></React.StrictMode>);
@@ -15,7 +16,7 @@ Happy Coding!
 */
 
 function MainHeader() {
-  return <h1 className="text-primary">REACT COURSE</h1>;
+  return <h1 className="heading1">REACT COURSE</h1>;
 }
 
 const subHeaderStyle = {
