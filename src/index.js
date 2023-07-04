@@ -41,12 +41,13 @@ function Footer() {
 }
 
 root.render(
-  <div>
+  <div className="container">
     <Header />
     <MainBody />
-    <Student />
-    <Student />
-    <Student />
+    <div className="row">Students Enrolled</div>
+    <Student experience={2} name="Kris Walley" />
+    <Student experience={5} name="Angel Patrice" />
+    <Student experience={7} name="Rene Parker" />
     <Footer />
   </div>
 );
