@@ -1,4 +1,5 @@
 import Student from "./Student";
+import StudentReview from "./StudentReview";
 
 function MainBody() {
   const whatWeWillLearn = "React JS";
@@ -28,12 +29,16 @@ function MainBody() {
         experience={2}
         name="Kris Walley"
         headshot="https://robohash.org/6VH.png?set=set4"
-      />
+      >
+        <StudentReview />
+      </Student>
       <Student
         experience={5}
         name="Angel Patrice"
         headshot="https://robohash.org/MA0.png?set=set4"
-      />
+      >
+        <StudentReview />
+      </Student>
       <Student
         experience={7}
         name="Rene Parker"
