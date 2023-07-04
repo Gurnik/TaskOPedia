@@ -2,7 +2,7 @@
 import ReactDOM from "react-dom/client";
 import "../src/CSS/style.css";
 import Header from "./Header";
-import Students from "./Students";
+import Student from "./Student";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<React.StrictMode></React.StrictMode>);
@@ -44,7 +44,9 @@ root.render(
   <div>
     <Header />
     <MainBody />
-    <Students />
+    <Student />
+    <Student />
+    <Student />
     <Footer />
   </div>
 );

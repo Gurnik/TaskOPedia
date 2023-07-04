@@ -1,4 +1,4 @@
-export default function Students() {
+export default function Student() {
   const fullName = "Kris Walley";
   const programmingExp = 2;
   return (
